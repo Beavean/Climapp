@@ -12,9 +12,11 @@ protocol WeatherManagerDelegate {
 }
 
 struct WeatherManager {
+
     let weatherUrl = ""
     
     var delegate: WeatherManagerDelegate?
+
     
     func fetchWeather(cityName: String) {
         let urlString = weatherUrl + cityName
