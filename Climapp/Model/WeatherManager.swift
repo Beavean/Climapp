@@ -15,7 +15,7 @@ protocol WeatherManagerDelegate {
 
 struct WeatherManager {
     
-    let weatherUrl = "???"
+    let weatherUrl = "?"
     
     var delegate: WeatherManagerDelegate?
     
